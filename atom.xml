@@ -4,7 +4,7 @@
   <title><![CDATA[Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-08T01:02:29+08:00</updated>
+  <updated>2015-09-08T01:04:26+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[庆祝一下，]]></title>
+    <title type="html"><![CDATA[庆祝一下]]></title>
     <link href="http://ifayne.github.io/blog/2015/09/08/aha/"/>
     <updated>2015-09-08T00:53:51+08:00</updated>
     <id>http://ifayne.github.io/blog/2015/09/08/aha</id>
-    <content type="html"><![CDATA[<h3><em>我的博客主要功能终于大功告成</em></h3>
+    <content type="html"><![CDATA[<p><em>我的博客主要功能终于大功告成</em></p>
 ]]></content>
   </entry>
   
