@@ -4,7 +4,7 @@
   <title><![CDATA[Category: reprint | Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/blog/categories/reprint/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-08T13:00:16+08:00</updated>
+  <updated>2015-09-08T13:06:36+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -140,8 +140,9 @@ email:  # Email address for the RSS feed if you want it.
 同理，修改定制文件/source/_includes/custom/head.html 把google的自定义字体去掉。from唐巧的博文中—配置
 </code></pre>
 
-<p>关于另外两部分配置后面会有文详细介绍，这里略过。
-<strong>4.部署到github</strong></p>
+<p>关于另外两部分配置后面会有文详细介绍，这里略过。</p>
+
+<p><strong>4.部署到github</strong></p>
 
 <p>github pages支持托管，<a href="https://pages.github.com/">地址</a>。在这个页面你只需要大概了解一下什么事github page，如何申请就行了。</p>
 
@@ -261,8 +262,9 @@ footer: true
 
 <p> <code>&lt;!-- more --&gt;</code></p>
 
-<p>这个会生成一个”Continue →” 链接来指向完整博文，这个跟wordpress的一样。
-<strong>6.小结</strong></p>
+<p>这个会生成一个”Continue →” 链接来指向完整博文，这个跟wordpress的一样。</p>
+
+<p><strong>6.小结</strong></p>
 
 <p>本文主要是介绍如何利用octopress再github上搭建 一个博客，简述了完整步骤，同时介绍了博客涉及到的最常用的发布博文以及新建页面功能。</p>
 
