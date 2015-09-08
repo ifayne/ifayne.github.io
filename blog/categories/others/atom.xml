@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: others | Fayne's Blog]]></title>
+  <link href="http://ifayne.github.io/blog/categories/others/atom.xml" rel="self"/>
+  <link href="http://ifayne.github.io/"/>
+  <updated>2015-09-08T12:16:52+08:00</updated>
+  <id>http://ifayne.github.io/</id>
+  <author>
+    <name><![CDATA[Fayne]]></name>
+    <email><![CDATA[ifayne@163.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[庆祝一下]]></title>
+    <link href="http://ifayne.github.io/blog/2015/09/08/aha/"/>
+    <updated>2015-09-08T00:53:51+08:00</updated>
+    <id>http://ifayne.github.io/blog/2015/09/08/aha</id>
+    <content type="html"><![CDATA[<p><em>我的博客主要功能终于大功告成</em></p>
+]]></content>
+  </entry>
+  
+</feed>
