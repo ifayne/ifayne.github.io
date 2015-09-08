@@ -4,7 +4,7 @@
   <title><![CDATA[Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-08T12:52:03+08:00</updated>
+  <updated>2015-09-08T12:55:54+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -174,7 +174,7 @@ rake deploy
 <p>这样再次执行就不会报错了。
 博客本地预览</p>
 
-<p>如果在部署到仓库之前，需要先预览一下博客，可以在终端输入 <code>rake preview</code> 命令，然后就能在浏览器中进行本地预览访问了： <a href="http://127.0.0.1:4000/%E6%88%96http://localhost:4000/%EF%BC%8C%E6%95%88%E6%9E%9C%E8%B7%9F%E4%BB%93%E5%BA%93%E4%B8%AD%E7%9A%84%E4%B8%80%E6%A0%B7%E3%80%82">http://127.0.0.1:4000/%E6%88%96http://localhost:4000/%EF%BC%8C%E6%95%88%E6%9E%9C%E8%B7%9F%E4%BB%93%E5%BA%93%E4%B8%AD%E7%9A%84%E4%B8%80%E6%A0%B7%E3%80%82</a>
+<p>如果在部署到仓库之前，需要先预览一下博客，可以在终端输入 <code>rake preview</code> 命令，然后就能在浏览器中进行本地预览访问了： <a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a>或<a href="http://localhost:4000/">http://localhost:4000/</a>，效果跟仓库中的一样。
 提交源码用于备份</p>
 
 <p>前面提到的deploy只是部署博客代码到github上面，整个octopress并没有提交，为了保证在任何地方随时发布博客，而无需再次详细配置以保证跟github上的最新代码一致，可以将当前octopress的源码存放到github的source分支下：</p>
