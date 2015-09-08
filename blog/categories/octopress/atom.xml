@@ -4,7 +4,7 @@
   <title><![CDATA[Category: octopress | Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-08T12:55:54+08:00</updated>
+  <updated>2015-09-08T13:00:16+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -38,7 +38,7 @@ octopress配置
 小结
 </code></pre>
 
-<p>1.Ruby等依赖安装</p>
+<p><strong>1.Ruby等依赖安装</strong></p>
 
 <p>Ruby 需要1.9.3版本的，同时由于Jekyll和octopress都是ruby写的，会有诸多ruby依赖，建议切换ruby源为国内源。对于git版本没有太大要求。
 Install Ruby</p>
@@ -72,7 +72,7 @@ gem source -l
 #git version 1.9.1
 </code></pre>
 
-<p>2.octopress安装</p>
+<p><strong>2.octopress安装</strong></p>
 
 <p>octopress 的安装也比较简单，下载源码后会有Gemfile文件来指示所有依赖，使用bundle即可。
 下载源码</p>
@@ -112,12 +112,12 @@ tips： 保持Jekyll最新</p>
 
 <p><code>bundle update</code></p>
 
-<p>3.octopress配置</p>
+<p><strong>3.octopress配置</strong></p>
 
 <p>实际上octopress已经很好的隐藏了Jekyll的诸多配置，我们只需要简单操作几个文件。octopress就会自动生成相应的Jekyll配置。这里我们仅仅讲解一下_config.yml文件的部分配置项，具体请看官网Configuring Octopress。</p>
 
 <p>该文件的配置分为三大部分:Main config、Jekyll&amp;Plugin、3rd Party Settings。
-<strong>Main config</strong></p>
+Main config</p>
 
 <pre><code>url:# For rewriting urls for RSS, etc  
 title:  # Used in the header and title tags
@@ -141,7 +141,7 @@ email:  # Email address for the RSS feed if you want it.
 </code></pre>
 
 <p>关于另外两部分配置后面会有文详细介绍，这里略过。
-4.部署到github</p>
+<strong>4.部署到github</strong></p>
 
 <p>github pages支持托管，<a href="https://pages.github.com/">地址</a>。在这个页面你只需要大概了解一下什么事github page，如何申请就行了。</p>
 
@@ -184,7 +184,7 @@ git commit -m 'Initial source commit'
 git push origin source
 </code></pre>
 
-<p>5.新建博文</p>
+<p><strong>5.新建博文</strong></p>
 
 <p>新建博文也非常简单，octopress已经预定义了脚本 rake new_post[“title”] 方便我们操作，因为Jekyll有一套固定的文档路径以及命名规范，需要按照它的规定来实现才能成功生成博文。博文必须存储在source/_posts目录下，并且需要按照Jekyll的命名规范对文章进行命名：YYYY-MM-DD-post-title.markdown。文章的名字会被当做url的一部分，而其中的日期用于对博文的区分和排序。</p>
 
@@ -262,13 +262,13 @@ footer: true
 <p> <code>&lt;!-- more --&gt;</code></p>
 
 <p>这个会生成一个”Continue →” 链接来指向完整博文，这个跟wordpress的一样。
-6.小结</p>
+<strong>6.小结</strong></p>
 
 <p>本文主要是介绍如何利用octopress再github上搭建 一个博客，简述了完整步骤，同时介绍了博客涉及到的最常用的发布博文以及新建页面功能。</p>
 
 <p>更加高级一点的如自定义域名、评论系统、分享等后文会详述。其实就是前面省略的_config.yml配置文件的后面两大块。</p>
 
-<p><a href="http://www.appinn.com/markdown/"><em>点击查看原文</em></a></p>
+<p><a href="http://www.itzhoulin.com/deploy-a-blog-using-octopress-hosted-in-github/"><em>点击查看原文</em></a></p>
 ]]></content>
   </entry>
   
