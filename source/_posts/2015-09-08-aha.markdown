@@ -1,0 +1,8 @@
+---
+layout: post
+title: "庆祝一下"
+date: 2015-09-08 00:53:51 +0800
+comments: true
+categories: others 
+---
+*我的博客主要功能终于大功告成*
