@@ -4,7 +4,7 @@
   <title><![CDATA[Category: study | Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/blog/categories/study/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-08T12:42:38+08:00</updated>
+  <updated>2015-09-08T12:43:43+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -18,7 +18,7 @@
     <link href="http://ifayne.github.io/blog/2015/09/08/study/"/>
     <updated>2015-09-08T12:21:45+08:00</updated>
     <id>http://ifayne.github.io/blog/2015/09/08/study</id>
-    <content type="html"><![CDATA[<p>这里将详细讲解一下如何利用octopress在github上部署一个博客程序，既方便写博客又无需考虑托管问题，同时天然的在本地有一个备份，所有操作都基于git，有无限版本控制。使用markdown书写具体的博客内容，自带代码高亮解决方案。</p>
+    <content type="html"><![CDATA[<p>这里将详细讲解一下如何利用octopress在github上部署一个博客程序，既方便写博客又无需考虑托管问题，同时天然的在本地有一个备份，所有操作都基于git，有无限版本控制。使用markdown书写具体的博客内容，自带代码高亮解决方案。<!-- more --></p>
 
 <p>github使用的博客引擎是Jekyll，octopress也是利用Jekyll引擎来开发博客的，因此生成的博客系统可以直接在github pages上运行良好。</p>
 
