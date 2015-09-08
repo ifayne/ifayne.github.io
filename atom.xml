@@ -4,7 +4,7 @@
   <title><![CDATA[Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-08T12:43:43+08:00</updated>
+  <updated>2015-09-08T12:52:03+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -22,7 +22,7 @@
 
 <p>github使用的博客引擎是Jekyll，octopress也是利用Jekyll引擎来开发博客的，因此生成的博客系统可以直接在github pages上运行良好。</p>
 
-<p>后续博客以github平台为主，访问地址为<a href="http://blog.itzhoulin.com,%E4%BB%A5%E5%89%8D%E7%9A%84%E5%8D%9A%E6%96%87%E4%B9%9F%E4%BC%9A%E6%85%A2%E6%85%A2%E6%8C%91%E4%B8%80%E4%BA%9B%E8%BF%81%E8%BF%87%E5%8E%BB">http://blog.itzhoulin.com,%E4%BB%A5%E5%89%8D%E7%9A%84%E5%8D%9A%E6%96%87%E4%B9%9F%E4%BC%9A%E6%85%A2%E6%85%A2%E6%8C%91%E4%B8%80%E4%BA%9B%E8%BF%81%E8%BF%87%E5%8E%BB</a>
+<p>后续博客以github平台为主，<a href="http://blog.itzhoulin.com">访问地址</a>,以前的博文也会慢慢挑一些迁过去
 环境说明:</p>
 
 <p>本地环境是在ubuntukylin14.04.1系统下部署的，其他系统也没问题，只需要支持ruby，git</p>
@@ -56,12 +56,13 @@ Install Ruby</p>
 
 <p>建议国内用户切换gem源为国内源，方法如下：</p>
 
-<p>#删除官方源
-<code>gem source -r https://rubygems.org/</code>
+<pre><code>#删除官方源
+gem source -r https://rubygems.org/
 #添加淘宝源
-<code>gem source -a http://ruby.taobao.org</code>/
+gem source -a http://ruby.taobao.org/
 #查看当前源
-gem source -l</p>
+gem source -l
+</code></pre>
 
 <p>安装git</p>
 
@@ -142,7 +143,7 @@ email:  # Email address for the RSS feed if you want it.
 <p>关于另外两部分配置后面会有文详细介绍，这里略过。
 4.部署到github</p>
 
-<p>github pages支持托管，地址为<a href="https://pages.github.com/%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E9%A1%B5%E9%9D%A2%E4%BD%A0%E5%8F%AA%E9%9C%80%E8%A6%81%E5%A4%A7%E6%A6%82%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B%E4%BB%80%E4%B9%88%E4%BA%8Bgithub">https://pages.github.com/%E3%80%82%E5%9C%A8%E8%BF%99%E4%B8%AA%E9%A1%B5%E9%9D%A2%E4%BD%A0%E5%8F%AA%E9%9C%80%E8%A6%81%E5%A4%A7%E6%A6%82%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B%E4%BB%80%E4%B9%88%E4%BA%8Bgithub</a> page，如何申请就行了。</p>
+<p>github pages支持托管，<a href="https://pages.github.com/">地址</a>。在这个页面你只需要大概了解一下什么事github page，如何申请就行了。</p>
 
 <pre><code>新建一个仓库，名为your_user_name.github.io或organization.github.io，当然也可以是project，这个方法有点不一样，这里以your_user_name.github.io为例。
 在octopress根目录执行 rake setup_github_pages ，按照要求输入仓库地址等，这个命令会在跟目录下新建_deploy目录，这个会push到仓库的master分支，也就是访问博客的文件。
@@ -178,9 +179,10 @@ rake deploy
 
 <p>前面提到的deploy只是部署博客代码到github上面，整个octopress并没有提交，为了保证在任何地方随时发布博客，而无需再次详细配置以保证跟github上的最新代码一致，可以将当前octopress的源码存放到github的source分支下：</p>
 
-<p>git add .
-git commit -m &lsquo;Initial source commit&rsquo;
-git push origin source</p>
+<pre><code>git add .
+git commit -m 'Initial source commit'
+git push origin source
+</code></pre>
 
 <p>5.新建博文</p>
 
