@@ -4,7 +4,7 @@
   <title><![CDATA[Fayne's Blog]]></title>
   <link href="http://ifayne.github.io/atom.xml" rel="self"/>
   <link href="http://ifayne.github.io/"/>
-  <updated>2015-09-20T00:18:06+08:00</updated>
+  <updated>2015-10-17T23:55:11+08:00</updated>
   <id>http://ifayne.github.io/</id>
   <author>
     <name><![CDATA[Fayne]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[似乎该说点什么了。。。]]></title>
+    <link href="http://ifayne.github.io/blog/2015/10/17/daily/"/>
+    <updated>2015-10-17T23:36:22+08:00</updated>
+    <id>http://ifayne.github.io/blog/2015/10/17/daily</id>
+    <content type="html"><![CDATA[<blockquote><p>我们总是把最顺和的一面展现给陌生人，把最坏的脾气留给最亲近的人</p></blockquote>
+
+<p><strong>我最坏的脾气就是对人不理不睬，我是在逃避他们吗？</strong></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[这一周]]></title>
